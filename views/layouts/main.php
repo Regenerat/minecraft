@@ -40,10 +40,10 @@ $this->registerLinkTag(['rel' => 'icon', 'type' => 'image/x-icon', 'href' => Yii
             </ul>
         </div>
 
-        <a href="#" class="navbar-logo flex justify-center align-center logo" id=""><img src="img/logo.png" alt="" class="logo_img"></a>
+        <a href="#" class="navbar-logo flex justify-center align-center logo" id=""><img src="img/logo3.png" alt="" class="logo_img"></a>
 
         <div class="navbar-right align-center">
-            <a href="" class="stylized-button" id="">Получить</a>
+            <a href="" class="stylized-button" id="">Получить BBIBISHCRAFT</a>
         </div>
 
         <div class="toggle_btn">
