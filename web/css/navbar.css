@@ -105,6 +105,7 @@ header {
     width: fit-content;
     border-bottom-width: 8px;
     --tw-border-opacity: 1;
+    border-radius: 5px;
     border-color: rgb(43 29 59 / var(--tw-border-opacity));
     --tw-bg-opacity: 1;
     background-color: rgb(108 189 39 / var(--tw-bg-opacity));
