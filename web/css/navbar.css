@@ -121,6 +121,7 @@ header {
 
 .stylized-button:hover {
     transform: scale(1.1);
+    color: white !important;
 }
 
 .logo {
