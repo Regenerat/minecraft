@@ -1,0 +1,67 @@
+body {
+    color: white;
+}
+
+.server_title {
+    display: flex;
+    justify-content: center;
+    margin-top: 4rem;
+}
+
+.server_title h1 {
+    font-weight: 700;
+}
+
+.server_info {
+    flex-direction: column;
+
+}
+
+.justify-normal {
+    justify-content: normal;
+}
+
+.mx-auto {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.server_ico {
+    max-height: 13rem;
+    margin-right: 1.5rem;
+}
+
+.mw-850 {
+    max-width: 850px;
+}
+
+.container {
+    width: 100%;
+}
+
+.justify-sb {
+    justify-content: space-between;
+}
+
+.fit-content {
+    height: fit-content;
+}
+
+.server_info_title{
+    margin-right: 2rem;
+}
+
+.border_green {
+    border-width: 2px 2px 2px 2px;
+    border-style: solid;
+    border-color: rgb(108 189 39);
+}
+
+.scale {
+    transition: transform 0.3s ease, margin-top 0.3s ease;
+}
+
+.scale:hover{
+    transform: scale(1.1);
+    color: white !important;
+}
