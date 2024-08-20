@@ -26,13 +26,14 @@
     padding: 20px;
     border-radius: 10px;
     text-align: center;
-    width: 15rem;
+    width: 14rem;
     transition: transform 0.3s ease, border 0.3s ease;
+    transform-origin: center;
 }
 
 .icon {
-    width: 9rem;
-    height: 9rem;
+    width: 8rem;
+    height: 8rem;
     margin: 0 auto 10px auto;
     background-size: contain;
     background-repeat: no-repeat;
@@ -56,9 +57,13 @@
 }
 
 .card p {
+    font-weight: 500;
     margin-top: 2rem;
     color: white;
     min-height: 8rem;
+    max-width: 100%;
+    white-space: pre; /* Запрещает автоперенос и учитывает <br> */
+    overflow-wrap: normal; /* Предотвращает разбиение слов */
 }
 
 .icon_img {
