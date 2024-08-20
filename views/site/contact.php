@@ -8,61 +8,43 @@ use yii\bootstrap5\ActiveForm;
 use yii\bootstrap5\Html;
 use yii\captcha\Captcha;
 
-$this->title = 'Contact';
-$this->params['breadcrumbs'][] = $this->title;
 ?>
 <div class="site-contact">
-    <h1><?= Html::encode($this->title) ?></h1>
-
-    <?php if (Yii::$app->session->hasFlash('contactFormSubmitted')): ?>
-
-        <div class="alert alert-success">
-            Thank you for contacting us. We will respond to you as soon as possible.
+    <div class="contact">
+        <h1>Контакты</h1>
+        <p>Все полезные ссылки на источники информации: тех-поддержка,
+        новости, сообщества и каналы</p>
+    </div>
+    <div class="container">
+        <div class="card">
+            <div class="icon"><?= Html::img('@web/img/icons/telegram-px.svg', ['alt' => 'Логотип', 'class' => 'icon_img']) ?></div>
+            
+            <p>Хотите получать <br>новости в телеграмме? <br>Подписывайтесь и <br>всегда будьте в курсе <br>событий!</p>
+            <a href="https://t.me/bbishcrxft" class="button" target="_blank">TELEGRAM</a>
         </div>
-
-        <p>
-            Note that if you turn on the Yii debugger, you should be able
-            to view the mail message on the mail panel of the debugger.
-            <?php if (Yii::$app->mailer->useFileTransport): ?>
-                Because the application is in development mode, the email is not sent but saved as
-                a file under <code><?= Yii::getAlias(Yii::$app->mailer->fileTransportPath) ?></code>.
-                Please configure the <code>useFileTransport</code> property of the <code>mail</code>
-                application component to be false to enable email sending.
-            <?php endif; ?>
-        </p>
-
-    <?php else: ?>
-
-        <p>
-            If you have business inquiries or other questions, please fill out the following form to contact us.
-            Thank you.
-        </p>
-
-        <div class="row">
-            <div class="col-lg-5">
-
-                <?php $form = ActiveForm::begin(['id' => 'contact-form']); ?>
-
-                    <?= $form->field($model, 'name')->textInput(['autofocus' => true]) ?>
-
-                    <?= $form->field($model, 'email') ?>
-
-                    <?= $form->field($model, 'subject') ?>
-
-                    <?= $form->field($model, 'body')->textarea(['rows' => 6]) ?>
-
-                    <?= $form->field($model, 'verifyCode')->widget(Captcha::class, [
-                        'template' => '<div class="row"><div class="col-lg-3">{image}</div><div class="col-lg-6">{input}</div></div>',
-                    ]) ?>
-
-                    <div class="form-group">
-                        <?= Html::submitButton('Submit', ['class' => 'btn btn-primary', 'name' => 'contact-button']) ?>
-                    </div>
-
-                <?php ActiveForm::end(); ?>
-
-            </div>
+        <div class="card">
+            <div class="icon"><?= Html::img('@web/img/icons/boosty-px.svg', ['alt' => 'Логотип', 'class' => 'icon_img']) ?></div>
+            
+            <p>Получайте <br>эксклюзивный контент <br>и поддерживайте <br>творчество автора!</p>
+            <a href="https://boosty.to/bbishka" class="button" target="_blank">BOOSTY</a>
         </div>
-
-    <?php endif; ?>
+        <div class="card">
+            <div class="icon"><?= Html::img('@web/img/icons/youtube-px.svg', ['alt' => 'Логотип', 'class' => 'icon_img']) ?></div>
+            
+            <p>Обзоры модов и сборки <br>от создателя <br>BBIBISHCRAFT.<br>Основной канал на <br>Ютуб - BBIBISHCRAFT!</p>
+            <a href="#" class="button" target="_blank">YOUTUBE</a>
+        </div>
+        <div class="card">
+            <div class="icon"><?= Html::img('@web/img/icons/discord-px.svg', ['alt' => 'Логотип', 'class' => 'icon_img']) ?></div>
+            
+            <p>Тех-Поддержка, <br>общение, новости! <br>Присоединяйтесь к <br>нашему Дискорд <br>сообществу.</p>
+            <a href="https://discord.gg/8fyfDdnRGZ" class="button" target="_blank">DISCORD</a>
+        </div>
+        <div class="card">
+            <div class="icon"><?= Html::img('@web/img/icons/vk-px.svg', ['alt' => 'Логотип', 'class' => 'icon_img']) ?></div>
+            
+            <p>Пользуйтесь ВКонтакте? <br>У создателя проекта так <br>же есть группа с <br>новостями и не только!</p>
+            <a href="https://vk.com/xnbodev" class="button" target="_blank">DISCORD</a>
+        </div>
+    </div>
 </div>

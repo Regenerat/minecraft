@@ -34,13 +34,14 @@ $this->registerLinkTag(['rel' => 'icon', 'type' => 'image/x-icon', 'href' => Yii
     <div class="navbar">
         <div class="navbar-left">
             <ul class="links">
-                <li><a href="" class="" id="">Контакты</a></li>
+                <li><a href="<?= \yii\helpers\Url::to(['site/contact']) ?>" class="" id="">Контакты</a></li>
                 <li><a href="" class="" id="">Сервера</a></li>
                 <li><a href="" class="" id="">Дополнения</a></li>
             </ul>
         </div>
 
-        <a href="#" class="navbar-logo flex justify-center align-center logo" id=""><img src="img/logo3.png" alt="" class="logo_img"></a>
+        <a href="/" class="navbar-logo flex justify-center align-center logo" id=""><?= Html::img('@web/img/logo3.png', ['alt' => 'Логотип', 'class' => 'logo_img']) ?></a>
+        
 
         <div class="navbar-right align-center">
             <a href="" class="stylized-button" id="">Получить BBIBISHCRAFT</a>

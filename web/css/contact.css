@@ -1,0 +1,71 @@
+.contact {
+    text-align: center;
+    margin-top: 4rem;
+    color: white;
+}
+
+.contact h1 {
+    font-weight: 700;
+}
+
+.contact p {
+    font-weight: 400;
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+    margin-bottom: 40px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.card {
+    background-color: #292929;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    width: 15rem;
+    transition: transform 0.3s ease, border 0.3s ease;
+}
+
+.icon {
+    width: 9rem;
+    height: 9rem;
+    margin: 0 auto 10px auto;
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+.button {
+    display: inline-block;
+    background-color: rgb(108 189 39);
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-top: 10px;
+}
+
+.button:hover {
+    color: white !important;
+}
+
+.card p {
+    margin-top: 2rem;
+    color: white;
+    min-height: 8rem;
+}
+
+.icon_img {
+    
+}
+
+.card:hover {
+    transform: scale(1.1); /* Увеличение размера */
+    border: 2px solid rgb(108 189 39); /* Появление рамки */
+}
