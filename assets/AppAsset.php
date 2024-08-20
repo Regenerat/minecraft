@@ -24,7 +24,8 @@ class AppAsset extends AssetBundle
         'css/site.css',
         'css/navbar.css',
         'css/homepage.css',
-        'css/contact.css'
+        'css/contact.css',
+        'css/server.css',
     ];
     public $js = [
         'https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js',
