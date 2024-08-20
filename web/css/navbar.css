@@ -136,3 +136,7 @@ header {
     max-width: 100%;
     display: block;
 }
+
+.navbar a:hover {
+    color: white !important;
+}

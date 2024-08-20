@@ -36,7 +36,6 @@ $this->registerLinkTag(['rel' => 'icon', 'type' => 'image/x-icon', 'href' => Yii
             <ul class="links">
                 <li><a href="<?= \yii\helpers\Url::to(['site/contact']) ?>" class="" id="">Контакты</a></li>
                 <li><a href="" class="" id="">Сервера</a></li>
-                <li><a href="" class="" id="">Дополнения</a></li>
             </ul>
         </div>
 
