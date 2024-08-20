@@ -19,26 +19,32 @@ use yii\captcha\Captcha;
         <div class="card">
             <div class="icon"><?= Html::img('@web/img/icons/telegram-px.svg', ['alt' => 'Логотип', 'class' => 'icon_img']) ?></div>
             
-            <p>Хотите получать новости в телеграмме? Подписывайтесь и всегда будьте в курсе событий!</p>
+            <p>Хотите получать <br>новости в телеграмме? <br>Подписывайтесь и <br>всегда будьте в курсе <br>событий!</p>
             <a href="https://t.me/bbishcrxft" class="button" target="_blank">TELEGRAM</a>
         </div>
         <div class="card">
             <div class="icon"><?= Html::img('@web/img/icons/boosty-px.svg', ['alt' => 'Логотип', 'class' => 'icon_img']) ?></div>
             
-            <p>Получайте эксклюзивный контент и поддерживайте творчество автора!</p>
+            <p>Получайте <br>эксклюзивный контент <br>и поддерживайте <br>творчество автора!</p>
             <a href="https://boosty.to/bbishka" class="button" target="_blank">BOOSTY</a>
         </div>
         <div class="card">
             <div class="icon"><?= Html::img('@web/img/icons/youtube-px.svg', ['alt' => 'Логотип', 'class' => 'icon_img']) ?></div>
             
-            <p>Обзоры модов и сборки от создателя FreshCraft. Основной канал на Ютуб - Grape Create!</p>
+            <p>Обзоры модов и сборки <br>от создателя <br>BBIBISHCRAFT.<br>Основной канал на <br>Ютуб - BBIBISHCRAFT!</p>
             <a href="#" class="button" target="_blank">YOUTUBE</a>
         </div>
         <div class="card">
             <div class="icon"><?= Html::img('@web/img/icons/discord-px.svg', ['alt' => 'Логотип', 'class' => 'icon_img']) ?></div>
             
-            <p>Тех-Поддержка, общение, новости! Присоединяйтесь к нашему Дискорд сообществу.</p>
-            <a href="https://discord.gg/jUEMKXV9Wy" class="button" target="_blank">DISCORD</a>
+            <p>Тех-Поддержка, <br>общение, новости! <br>Присоединяйтесь к <br>нашему Дискорд <br>сообществу.</p>
+            <a href="https://discord.gg/8fyfDdnRGZ" class="button" target="_blank">DISCORD</a>
+        </div>
+        <div class="card">
+            <div class="icon"><?= Html::img('@web/img/icons/vk-px.svg', ['alt' => 'Логотип', 'class' => 'icon_img']) ?></div>
+            
+            <p>Пользуйтесь ВКонтакте? <br>У создателя проекта так <br>же есть группа с <br>новостями и не только!</p>
+            <a href="https://vk.com/xnbodev" class="button" target="_blank">DISCORD</a>
         </div>
     </div>
 </div>
